@@ -8,8 +8,6 @@ import org.procamp.dao.pghibernate.PGActivityDAO;
 import org.procamp.dao.pghibernate.PGBuildingDAO;
 import org.procamp.dao.pghibernate.PGReportDAO;
 import org.procamp.dao.pghibernate.PGUserDAO;
-import org.procamp.model.DataSource;
-import org.procamp.model.EntityManagerDataSource;
 import org.procamp.model.HibernateDataSource;
 import org.procamp.model.entity.Activity;
 import org.procamp.model.entity.Building;

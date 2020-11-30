@@ -3,7 +3,6 @@ package org.procamp.service;
 import org.hamcrest.CoreMatchers;
 import org.junit.After;
 import org.junit.Before;
-import org.junit.Ignore;
 import org.junit.Test;
 import org.procamp.dao.IUserDAO;
 import org.procamp.factory.DAOFactory;

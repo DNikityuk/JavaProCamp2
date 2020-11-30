@@ -1,8 +1,6 @@
 package org.procamp.dao.pgemhibernate;
 
 import org.hibernate.HibernateException;
-import org.hibernate.criterion.Projections;
-import org.hibernate.criterion.Restrictions;
 import org.procamp.dao.IActivityDAO;
 import org.procamp.exception.DAOAppException;
 import org.procamp.model.EntityManagerDataSource;

@@ -6,8 +6,6 @@ import org.procamp.dao.IBuildingDAO;
 import org.procamp.exception.DAOAppException;
 import org.procamp.factory.DAOFactory;
 
-import static org.procamp.AppConstants.DAO_INJECT;
-
 
 public class BuildingService extends BaseService {
 

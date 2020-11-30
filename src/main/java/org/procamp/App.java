@@ -19,19 +19,5 @@ public class App {
         SessionFactoryUtil.buildSessionFactory();
         EntityManagerFactoryUtil.buildEntityManagerFactory();
 
-//        List<Activity> allActivitiesByUserIdAndBuildingId = new ActivityService().getAllActivitiesByUserIdAndBuildingId(1L, 1L);
-
-//        Double totalActivitiesPrice = new ActivityService().getTotalActivitiesPriceByBuildingId(1L);
-
-        Double totalActivitiesPrice = new ActivityService().getTotalActivitiesPriceByReportId(5L, null);
-
-
-//        Double totalActivitiesPrice = new ActivityService().getTotalActivitiesPriceByUserId(1L);
-
-
-//        List<Report> totalActivitiesPriceByUserId = new ReportService().getAllReportsByUser(1L);
-
-//        new BuildingService().deactivateBuildingsWitchTotalPriceActivitiesMoreThan(50d);
-        System.out.println();
     }
 }
